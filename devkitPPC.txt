@@ -1,0 +1,4 @@
+This application is complied using a modfied version of devkitPPC r21. The included gcc 4.5.1 produces
+an error when compiling with the parameter -Os, but that is required to get the GC low plugin below 6KB.
+In order to compile this project(the GC part to be precise), you need to have the files from gcc 4.4.3 in
+your devkitPPC folder. (no need to delete gcc 4.5.1)
